@@ -42,21 +42,6 @@ console.log(newArray); // ['pens', 'books', 'codes']
 The big difference between the map and forEach method is that the map method creates a new array
 the forEach method just iterates over the array.
 
-Example
-
-```js
-const colors = ["Pink", "Yellow", "Blue", "Green"];
-
-colors.forEach((color) => console.log(color));
-
-/*
-Pink 
-Yellow
-Blue
-Green
-*/
-```
-
 ### Array.prototype.filter
 
 filter() creates a new array by filtering all elements that meet the condition implemented by the given function that returns true or false.
