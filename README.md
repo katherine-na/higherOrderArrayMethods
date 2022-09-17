@@ -33,8 +33,8 @@ Example:
 
 ```js
 const givenArray = ["pen", "book", "code"];
-const newArray = givenArray.map((w) => w + "s");
-console.log(newArray); // console: ['pens', 'books', 'codes']
+const newArray = givenArray.map((w) => `${w}s`);
+console.log(newArray); // ['pens', 'books', 'codes']
 ```
 
 ### map() and forEach()
@@ -42,7 +42,32 @@ console.log(newArray); // console: ['pens', 'books', 'codes']
 The big difference between the map and forEach method is that the map method creates a new array
 the forEach method just iterates over the array.
 
+Example
+
+```js
+const colors = ["Pink", "Yellow", "Blue", "Green"];
+
+colors.forEach((color) => console.log(color));
+
+/*
+Pink 
+Yellow
+Blue
+Green
+*/
+```
+
 ### Array.prototype.filter
+
+filter() creates a new array by filtering all elements that meet the condition implemented by the given function that returns true or false.
+
+Example
+
+```js
+const numbers = [1, 2, 3, 4, 5, 6, , 7, 8, 9];
+const filterNumbers = numbers.filter((x) => x < 5);
+console.log(filterNumbers); // [1, 2, 3, 4]
+```
 
 ### Array.prototype.reduce
 
