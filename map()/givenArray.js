@@ -1,5 +1,5 @@
 const givenArray = ["pen", "book", "code"];
-const newArray = givenArray.map((w) => `${w}s`);
+const newArray = givenArray.map((string) => `${string}s`);
 
 console.log(givenArray);
 console.log(newArray);
