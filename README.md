@@ -42,7 +42,7 @@ console.log(newArray); // ['pens', 'books', 'codes']
 The big difference between the map and forEach method is that the map method creates a new array
 the forEach method just iterates over the array.
 
-### Array.prototype.filter
+### Array prototype filter
 
 filter() creates a new array by filtering all elements that meet the condition implemented by the given function that returns true or false.
 
@@ -54,8 +54,6 @@ const filterNumbers = numbers.filter((x) => x < 5);
 console.log(filterNumbers); // [1, 2, 3, 4]
 ```
 
-### Array.prototype.reduce
+### Array prototype some
 
-### Array.prototype.some and Array.prototype.every
-
-##
+### Array prototype every
