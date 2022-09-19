@@ -1,19 +1,5 @@
 <h1 align="center">Higher Order Array Methods in JavaScript</h1>
 
-## TODO:
-
-- [] change the subtitle "map and forEach"
-- [] complete the map definition
-- [] complete what is map used for
-- [] Questions
-  _ What is the difference between map and for loops
-  _ What is a predicate function
-  _ Which array methods return something
-  _ What are pure functions?
-  _ What is the difference between - higher order functions - first class functions - currying
-  _ What does reduce method do? If time allows
-- [] Prepare as medium article
-
 ## Introduction
 
 Higher order functions are functions that operate on other functions  
@@ -22,6 +8,8 @@ It is a function that accepts a function as a parameter or returns a function as
 ## Methods to Arrays
 
 ### Array.prototype.forEach
+
+The forEach() method executes a function for each array element.
 
 - forEach() function can accept the arguments: currentItem, index, array.
 - On each and every element of the array, it loops the element.
@@ -40,6 +28,8 @@ arr.forEach(val => console.log(val));
 
 ### Array.prototype.map
 
+The map() method takes the elements of an array and creates a function. Map creates a new array with the results of a function.
+
 - map() function can accept any of the three arguments: item, index, array.
 - On each and every element of the array return values and create a new array.
 
@@ -51,7 +41,7 @@ const newArray = givenArray.map((string) => `${string}s`);
 console.log(newArray); // ['pens', 'books', 'codes']
 ```
 
-### map() and forEach()
+### map() vs forEach()
 
 The big difference between the map and forEach method is that the map method creates a new array
 the forEach method just iterates over the element of the array.

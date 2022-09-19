@@ -1,7 +1,7 @@
 ## TODO:
 
-- [] change the subtitle "map and forEach"
-- [] complete the map definition
+- [x] change the subtitle "map and forEach"
+- [x] complete the map definition
 - [] complete what is map used for
 - [] Questions
   _ What is the difference between map and for loops
