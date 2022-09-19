@@ -1,5 +1,19 @@
 <h1 align="center">Higher Order Array Methods in JavaScript</h1>
 
+## TODO:
+
+- [] change the subtitle "map and forEach"
+- [] complete the map definition
+- [] complete what is map used for
+- [] Questions
+  _ What is the difference between map and for loops
+  _ What is a predicate function
+  _ Which array methods return something
+  _ What are pure functions?
+  _ What is the difference between - higher order functions - first class functions - currying
+  _ What does reduce method do? If time allows
+- [] Prepare as medium article
+
 ## Introduction
 
 Higher order functions are functions that operate on other functions  
