@@ -41,11 +41,6 @@ const newArray = givenArray.map((string) => `${string}s`);
 console.log(newArray); // ['pens', 'books', 'codes']
 ```
 
-### map() vs forEach()
-
-The big difference between the map and forEach method is that the map method creates a new array
-the forEach method just iterates over the element of the array.
-
 ### Array prototype filter
 
 filter() creates a new array filtering all elements that meet the condition implemented by the given function that returns true or false.
@@ -81,3 +76,19 @@ const numbers = [2, 4, 6, 8];
 const thereAreEvenNumbers = numbers.every((value) => value % 2 === 0);
 console.log(thereAreEvenNumbers); // true
 ```
+
+## map() vs forEach()
+
+The big difference between the map and forEach method is that the map method creates a new array
+the forEach method just iterates over the element of the array.
+
+## What is the difference between map and for loops
+
+## Which array methods return something
+
+- Map
+- Filter
+- Every
+- Some
+
+## What are pure functions?
